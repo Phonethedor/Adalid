@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Individual2</string>
+    <string name="signup">Sign Up</string>
+    <string name="full_name">Full name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="agree">Yes! Agree all terms and conditions</string>
 </resources>

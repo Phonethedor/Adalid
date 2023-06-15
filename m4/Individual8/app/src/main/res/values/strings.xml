@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual8</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="ir">Ir a Segundo Activity</string>
+    <string name="volver">Volver</string>
+    <string name="sitio">Ir al Sitio</string>
+</resources>
