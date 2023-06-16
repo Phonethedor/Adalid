@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sprint</string>
+    <string name="introduccion">Desarrollador Full Stack Bilingüe, graduado del programa BootCamp de Coding Dojo \"Full Stack Python\" y de Desafio latam \"Full Stack Java\", siempre anhelando aprender mas y aplicar lo aprendedio a mis proyectos personales. En los BootCamp aprendi HTML5, CSS3, JavaScript, Git, JQuery, Python 3.x, Java, el framework de desarrollo de WebApps Django y tambien el framework de desarrollo de WebApps Spring, actualmente cursando bootcamp enfocado en aplicaciones android</string>
+    <string name="contacto">Contacto</string>
+    <string name="volver">Volver</string>
+    <string name="enviar">Enviar</string>
+</resources>
