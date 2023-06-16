@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seed"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/tvLn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="LinkedIn"
+        android:textColor="@color/md_theme_dark_inverseSurface"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toEndOf="@+id/ln"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="98dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Enviar Correo"
+        android:textColor="@color/md_theme_dark_inverseSurface"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toEndOf="@+id/mail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ln"
+        android:layout_width="87dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        app:srcCompat="@drawable/linkedin" />
+
+    <ImageView
+        android:id="@+id/Whats"
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLn"
+        app:srcCompat="@drawable/whatsapp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tfWhats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Whats" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="427dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnWhats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tfWhats" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="@string/volver"
+        app:backgroundTint="@color/md_theme_dark_inversePrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

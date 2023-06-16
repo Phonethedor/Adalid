@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Individual11</string>
+    <string name="music_paused">Music Paused</string>
+    <string name="unlocked_level_5">Unlocked Level 5</string>
+    <string name="updating_profile">Updating Profile</string>
+    <string name="level_4_completed">Level 4 Completed</string>
+    <string name="picture_saved_to_gallery">Picture Saved to Gallery</string>
+    <string name="turn_off_flight_mode">Turn off Flight Mode</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/avion"
+        android:text="@string/turn_off_flight_mode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/picture_saved_to_gallery"
+        android:textColor="#DA2929"
+        app:backgroundTint="@color/material_dynamic_secondary70"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/star"
+        android:drawableRight="@drawable/star"
+        android:text="@string/level_4_completed"
+        android:textColor="#FBFBFA"
+        app:backgroundTint="#046FC5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/sync"
+        android:text="@string/updating_profile"
+        app:backgroundTint="#DC4F44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#2F7132"
+        android:drawableLeft="@drawable/pause"
+        android:text="@string/music_paused"
+        app:backgroundTint="#2F7132"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/unlocked_level_5"
+        android:textColor="#2196F3"
+        app:backgroundTint="#575757"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toEndOf="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
