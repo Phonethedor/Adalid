@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/out1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_dark_error"
+    tools:context=".Activity2">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card6"
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toEndOf="@+id/card5"
+        app:layout_constraintTop_toBottomOf="@+id/card4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/tomate_cherry"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card4"
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toEndOf="@+id/card3"
+        app:layout_constraintTop_toBottomOf="@+id/card2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/tocino"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card5"
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/pepperoni"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/churrasco"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toEndOf="@+id/card1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/cordillerana"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/exit1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/md_theme_dark_onError"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/location2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/md_theme_dark_onError"
+        app:layout_constraintEnd_toStartOf="@+id/exit1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@color/md_theme_dark_onError"
+        android:text="@string/auri"
+        android:textAlignment="center"
+        android:textColor="@color/md_theme_dark_inverseSurface"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/location2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="183dp"
+        android:layout_height="190dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+        app:cardCornerRadius="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pizza_1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="144dp"
+                    android:layout_height="42dp"
+                    android:text="@string/italiana"
+                    android:textAlignment="center"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="@color/md_theme_dark_inverseSurface" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
