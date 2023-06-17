@@ -56,7 +56,7 @@ public class Activity2 extends AppCompatActivity {
                Intent url = new Intent(Intent.ACTION_VIEW);
                url.setData(Uri.parse("https://wa.me/56997596088?text="+msg));
                Log.i(TAG, "Utilizando URL WhatsApp");
-               startActivity(url) ;
+               startActivity(url);
            }
         });
     }
