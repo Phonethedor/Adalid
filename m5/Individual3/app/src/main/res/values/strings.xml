@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">individual15m4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="juego">Juego logo</string>
+    <string name="Bienvenido">Bienvenido a logo trivia, ingrese su nombre para comenzar</string>
+    <string name="pista">Escriba su nombre</string>
+    <string name="Comenzar">Comenzar</string>
+    <string name="saludo">Hola,  %1$s!</string>
+    <string name="question">¿A qué logo pertenece la imagen?</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="instagram">Instagram</string>
+    <string name="enviar">Enviar</string>
+    <string name="otravez">Respuesta equivocada %1$s, ¡intentalo otra vez!</string>
+    <string name="bien">Felicitaciones %1$s </string>
+    <string name="Intentar">Intentar otra vez</string>
+
+
+</resources>

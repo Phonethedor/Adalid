@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual14M4</string>
+    <string name="pregunta">¿Conoce esta ciudad?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+</resources>
