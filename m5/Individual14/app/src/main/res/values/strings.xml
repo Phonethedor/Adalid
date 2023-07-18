@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Individual14</string>
+    <string name="app_name">i14m5</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Banco Android 059</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Ingrese">Ingrese un monto</string>
+    <string name="Ver">Ver saldo</string>
+    <string name="Ingresar">Ingresar monto</string>
+    <string name="Girarr">Girar monto</string>
+    <string name="Salir">Salir</string>
+
+
+
+
 </resources>
