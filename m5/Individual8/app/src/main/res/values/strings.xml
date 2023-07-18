@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Individual8</string>
+    <string name="app_name">Individual3</string>
+    <string name="first">First Number</string>
+    <string name="second">Second Number</string>
+    <string name="calc">Calculator icon</string>
+    <string name="add">ADD</string>
+    <string name="divide">DIVIDE</string>
+    <string name="multiply">MULTIPLY</string>
+    <string name="subtract">SUBTRACT</string>
+    <string name="exit">EXIT</string>
 </resources>
