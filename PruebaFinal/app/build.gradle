@@ -75,7 +75,7 @@ dependencies {
     // To use Kotlin annotation processing tool (kapt)
     // To use Kotlin annotation processing tool (kapt)
     kapt "androidx.room:room-compiler:$room_version"
-//  se agrega corrije  algunos errores de la app
+
     implementation 'androidx.room:room-ktx:2.4.3'
 
     kapt "androidx.room:room-compiler:2.4.3"
