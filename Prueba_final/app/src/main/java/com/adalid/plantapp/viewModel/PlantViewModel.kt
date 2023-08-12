@@ -5,8 +5,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.adalid.plantapp.model.local.DataBase.PlantDB
-import com.adalid.plantapp.model.local.Entities.*
+import com.adalid.plantapp.model.local.dataBase.PlantDB
+import com.adalid.plantapp.model.local.entities.*
 import com.adalid.plantapp.model.PlantRepository
 import kotlinx.coroutines.launch
 

@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.adalid.plantapp.model.local.Entities.*
+import com.adalid.plantapp.model.local.entities.*
 
 @Dao
 interface PlantDAO {
@@ -16,8 +16,8 @@ interface PlantDAO {
     fun getAllPlants(): LiveData<List<PlantEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertPlantDetail(phone: PlantDetailEntity)
+    suspend fun insertPlantDetail(plant: PlantDetailEntity)
 
-    @Query("SELECT * FROM PLANT_DETAIL WHERE id=:id")
+    @Query("SELECT * FROM PLANT WHERE id=:id")
     fun getPlantDetailById(id: String): LiveData<PlantDetailEntity>
 }
